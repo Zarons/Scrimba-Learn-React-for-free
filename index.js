@@ -2,7 +2,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="#">
-        Navbar
+        ナビゲーションバー
       </a>
       <button
         className="navbar-toggler"
@@ -79,13 +79,25 @@ function Navbar() {
 }
 
 function MainContent() {
-  return <h1>I'm learning React!</h1>;
+  return <h1>お疲れ様です！</h1>;
 }
+
+console.log(MainContent);
+
+const page = (
+  <div>
+    <h1 className="header">This is JSX</h1>
+    <p>This is a a paragraph</p>
+  </div>
+);
+
+console.log(page);
 
 ReactDOM.render(
   <ul>
     <li>list 1</li>
     <li>list 2</li>
+    {page}
   </ul>,
   document.getElementById("list")
 );
@@ -99,6 +111,6 @@ ReactDOM.render(
 );
 
 const h2 = document.createElement("h2");
-h2.textContent = "This is an imperatice way to program";
+h2.textContent = "This is an imperative way to program";
 h2.className = "header";
 document.getElementById("root").append(h2);
