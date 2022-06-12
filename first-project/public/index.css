@@ -1,4 +1,9 @@
-html, body {
-    margin: 0;
-    padding: 10px;
+html,
+body {
+  margin: 0;
+  padding: 10px;
+}
+
+img {
+  width: 40px;
 }
