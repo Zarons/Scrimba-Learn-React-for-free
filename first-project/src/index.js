@@ -43,11 +43,9 @@ function Header() {
   );
 }
 
-function Page() {
+function MainContent() {
   return (
-    /* ↓↓ this is a react com */
     <>
-      <Header />
       <h1>Fun facts about React </h1>
       <ul>
         <li>Was first released in 2013</li>
@@ -56,6 +54,27 @@ function Page() {
         <li>Is maintained by Facebook</li>
         <li>Powers thousand of enterprise apps, including mobile apps</li>
       </ul>
+    </>
+  );
+}
+
+function Footer() {
+  return (
+    <>
+      <footer>
+        <small>© 2022 Geryenko Hawsen. All rights reserved.</small>
+      </footer>
+    </>
+  );
+}
+
+function Page() {
+  return (
+    /* ↓↓ this is a react com */
+    <>
+      <Header />
+      <MainContent />
+      <Footer />
     </>
   );
 }
