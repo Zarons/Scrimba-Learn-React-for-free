@@ -51,3 +51,18 @@ ReactDOM.render(
   </ul>,
   document.getElementById("list")
 );
+
+const jsx = (
+  <div>
+    <h1>JSX without React</h1>
+    <ul>
+      <li>jsx list 1</li>
+      <li>jsx list 2</li>
+    </ul>
+  </div>
+);
+
+document.getElementById("root3").append(jsx);
+document.getElementById("root3").append(JSON.stringify(jsx));
+
+ReactDOM.render(jsx, document.getElementById("rootJSX"));
