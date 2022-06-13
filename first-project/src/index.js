@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './Header';
-import MainContent from './MainContent';
-import Footer from './Footer';
+import './style.css';
+import Header from './components/Header';
+import MainContent from './components/MainContent';
+import Footer from './components/Footer';
 
 function App() {
 	return (
-		/* ↓↓ this is a react fragment */
+		/* ↓↓ this empty tag is a react fragment */
 		<>
 			<Header />
 			<MainContent />
