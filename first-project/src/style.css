@@ -6,38 +6,29 @@ body {
 	font-family: 'Inter', sans-serif;
 }
 
-.nav {
+nav {
 	display: flex;
 	align-items: center;
 	box-shadow: 0 5px 15px #61dafb;
 	background-color: #21222a;
 	padding: 15px 30px;
+	height: 91px;
+	width: 550px;
 }
 
-.nav-logo {
-	display: flex;
-	align-items: center;
-	margin-right: auto;
+nav > img {
+	width: 40px;
 }
 
-.nav-logo p {
+nav > h3 {
+	font-family: 'Inter', sans-serif;
 	font-weight: 700;
 	font-size: 23px;
 	color: #61dafb;
 }
 
-.nav-image {
-	width: 40px;
-}
-
-.nav-items {
-	list-style: none;
-	display: flex;
-	margin: 0;
+nav > h4 {
+	font-family: 'Inter', sans-serif;
 	font-weight: 600;
-	color: white !important;
-}
-
-.nav-items > li {
-	padding: 10px;
+	font-size: ;
 }

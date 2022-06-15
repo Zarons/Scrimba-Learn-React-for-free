@@ -5,17 +5,10 @@ function Header() {
 	return (
 		<>
 			<header>
-				<nav className='nav'>
-					<div className='nav-logo'>
-						<img src={reactLogo} className='nav-image'></img>
-						<p>&nbsp;ReactFacts</p>
-					</div>
-
-					<ul className='nav-items'>
-						<li>Pricing</li>
-						<li>About</li>
-						<li>Contact</li>
-					</ul>
+				<nav>
+					<img src={reactLogo} alt='logo'></img>
+					<h3>ReactFacts</h3>
+					<h4>React Course - Project 1</h4>
 				</nav>
 			</header>
 		</>
